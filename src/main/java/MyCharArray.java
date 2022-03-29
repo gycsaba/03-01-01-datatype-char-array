@@ -6,7 +6,8 @@ public class MyCharArray {
 		// A tömb a fej vagy írás jétk kimeneteit tartalmazza!
 		// Határozza meg, a kimenetek hány százaléka lett fej!
 		// Az eredményt két tizetes jegy pontossággal határozza meg!
-
+		char[] game ={'I','I','I','I','F','F','I','F','I','I','F','I','I','I','F','F','F'};
+		
 		return 0;
 	}
 

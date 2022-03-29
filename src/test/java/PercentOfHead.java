@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
       @Test
       public void test() {
-         double expected=56.25;
+         double expected=41.18;
          double actual=MyCharArray.getPercentOfHead();
          Assertions.assertEquals(expected,actual,"Rosszul hatarozta meg a fej dobazok szakalekat!");
       }
