@@ -45,7 +45,7 @@ public class NumberOfGivenLengthSequance {
 
    @Test
    public void testLong() {
-      char[] game ={'F','I','I','F','F','F','I','I','F','F','I','F','F','I','F','I','F','I','I','I','I','I','I','I','I','I','I','F','F',};
+      char[] game ={'F','I','I','F','F','I','I','I','I','I','I','I','I','I','I','F','I','I','F','F','I','F','I','I','I','I','I','I','I','I','I','I','F','I','F','I','F','I','I','I','I','I','I','I','I','I','I','F','F',};
       double expected=3;
       double actual=MyCharArray.getNumberOfGivenLengthSequance(game,10);
       Assertions.assertEquals(expected,actual,"Rosszul hatarozta meg leghosszabb csak I-bkől álló sorozat hosszát!");
