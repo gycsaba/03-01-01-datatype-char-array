@@ -38,7 +38,7 @@ public class MaxLengthOfISequance {
    @Test
    public void testInMiddle() {
       char[] game ={'I','I','I','F','F','I','F','I','I','F','I','I','I','I','I','I','F','F','I','I','I','I'};
-      double expected=5;
+      double expected=6;
       double actual=MyCharArray.getMaxLengthOfISequance(game);
       Assertions.assertEquals(expected,actual,"Rosszul hatarozta meg leghosszabb csak I-bkől álló sorozat hosszát!");
    }
